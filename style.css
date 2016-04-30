@@ -1,0 +1,112 @@
+body {
+
+        background-color:
+		background: rgb(235,241,246);
+		background: -moz-radial-gradient(center, ellipse cover,  rgb(235,241,246) 0%, rgb(213,235,251) 46%, rgb(213,235,251) 46%, rgb(171,211,238) 85%, rgb(171,211,238) 85%, rgb(137,195,235) 100%);
+		background: -webkit-radial-gradient(center, ellipse cover,  rgb(235,241,246) 0%,rgb(213,235,251) 46%,rgb(213,235,251) 46%,rgb(171,211,238) 85%,rgb(171,211,238) 85%,rgb(137,195,235) 100%);
+		background: radial-gradient(ellipse at center,  rgb(235,241,246) 0%,rgb(213,235,251) 46%,rgb(213,235,251) 46%,rgb(171,211,238) 85%,rgb(171,211,238) 85%,rgb(137,195,235) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', endColorstr='#89c3eb',GradientType=1 );
+	margin-top:50px;
+		margin-left:auto;
+		margin-right:auto;
+		margin-bottom:0px;
+		width: 1080px;
+		list-style: none;
+    }
+
+div {
+        font: verdana 12px #000;
+        position:relative;
+    }
+a {
+		text-decoration: none;
+	}
+#container {
+width:1080px;
+height:100%;
+border-left:solid #34381d 2px;
+border-right:solid #34381d 2px;
+
+}
+#header {
+        background: #fff url(images/banerek%203.png) no-repeat;
+        width:auto;
+        height:253px;
+		background-position: center;
+	}
+#header h1 {
+	background-color: transparent;
+	position: static;
+		font-size: 40px;
+	font-family: "Lucida Handwriting";
+	color: coral;
+	/* Padding */
+	padding-left: 30px;
+	padding-top: 35px;
+	}
+
+
+#menu {
+        background: #fff url(images/menu.jpg) repeat;
+        width:auto;
+        height:44px;
+		margin-top:-16px;
+	}
+#menu a {
+		display: block;
+		padding: 0px 26px 24px 24px;
+		color:#f7f7f7;
+		margin-top:8px;
+		float: left;
+		text-align:center;
+		font-weight: bold;
+	}
+#menu a:hover {
+		margin-top:8px;
+		color:dodgerblue;
+	}
+
+#photo	{
+	background-color: transparent;
+	float: left;
+	width: 50%;
+	}
+#objective {
+	background-color: lightgrey;
+	float: right;
+	width: 50%;
+	}
+#objective h2	{
+	font-size: 40px;
+	font-family: "Elephant" ;
+	/* Border */
+	border-color: transparent;
+	border-style: solid;
+	border-width: 15px;
+	}
+#objective p {
+	font-size: 14px;
+	font-family: "Calibri" ;
+	line-height:2;
+	text-align: justify;
+	text-justify: inter-word;
+	/* Border */
+	border-color: transparent;
+	border-style: solid;
+	border-width: 15px;
+}
+
+#footer {
+		background-color: transparent;
+        clear:both;
+		text-align: center;
+		font-size:15px;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		height:99px;
+		color:black;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding: 1rem;
+	}
