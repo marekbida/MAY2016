@@ -29,7 +29,8 @@ border-right:solid #34381d 2px;
 
 }
 #header {
-        background: #fff url(images/banerek%203.png) no-repeat;
+		/* banner downloaded from http://www.freepik.com */
+        background: #fff url(assets/images/banerek%203.png) no-repeat;
         width:auto;
         height:253px;
 		background-position: center;
@@ -41,13 +42,13 @@ border-right:solid #34381d 2px;
 	font-family: "Lucida Handwriting";
 	color: coral;
 	/* Padding */
-	padding-left: 30px;
-	padding-top: 35px;
+	padding-left: 3%;
+	padding-top: 3.5%;
 	}
 
 
 #menu {
-        background: #fff url(images/menu.jpg) repeat;
+        background: #fff url(assets/images/menu.jpg) repeat;
         width:auto;
         height:44px;
 		margin-top:-16px;
@@ -69,21 +70,89 @@ border-right:solid #34381d 2px;
 #photo	{
 	background-color: transparent;
 	float: left;
-	width: 50%;
+	width: 40%;
+	/* Padding */
+	margin-top: 5%;
+	margin-bottom: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10%;
+}
+
+#video {
+	width: 70%;
+	margin-left: 25%;
 	}
-#objective {
-	background-color: lightgrey;
-	float: right;
-	width: 50%;
-	}
-#objective h2	{
+#video h2	{
 	font-size: 40px;
 	font-family: "Elephant" ;
 	/* Border */
 	border-color: transparent;
 	border-style: solid;
-	border-width: 15px;
+
+}
+
+#form {
+	float: left;
+	width: 40%;
+	/* Padding */
+	margin-top: 7%;
+	margin-bottom: 2%;
 	}
+
+#form2 {
+	float: left;
+	width: 80%;
+	/* Padding */
+	margin-top: 7%;
+	margin-bottom: 2%;
+	margin-left: 10%;
+}
+
+#contactdetails h2	{
+	font-size: 40px;
+	font-family: "Elephant" ;
+	text-align: center;
+	/* Border */
+	border-color: transparent;
+	border-style: solid;
+	border-width: 3%;
+}
+#contactdetails {
+	background-color: lightgrey;
+	float: right;
+	width: 30%;
+	-webkit-border-radius: 10px;
+	margin-top: 7%;
+}
+#game h2	{
+	font-size: 40px;
+	font-family: "Elephant" ;
+	/* Border */
+	border-color: transparent;
+	border-style: solid;
+	border-width: 3%;
+}
+#objective {
+	background-color: lightgrey;
+	float: right;
+	width: 50%;
+	-webkit-border-radius: 10px;
+	margin-top: 5%;
+	}
+#objective h2	{
+	font-size: 40px;
+	font-family: "Elephant" ;
+	/* Border */
+	border-top-style: solid;
+	border-top-color: transparent;
+	border-right-style: solid;
+	border-right-color: transparent;
+	border-left-style: solid;
+	border-left-color: transparent;
+	border-bottom-style: solid;
+	border-bottom-color: transparent;
+}
 #objective p {
 	font-size: 14px;
 	font-family: "Calibri" ;
@@ -93,20 +162,66 @@ border-right:solid #34381d 2px;
 	/* Border */
 	border-color: transparent;
 	border-style: solid;
-	border-width: 15px;
+	border-width: 3%;
 }
 
-#footer {
-		background-color: transparent;
-        clear:both;
-		text-align: center;
-		font-size:15px;
-		font-family:Verdana, Arial, Helvetica, sans-serif;
-		height:99px;
-		color:black;
-		position: absolute;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		padding: 1rem;
+.mainContent {
+	overflow: hidden;
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top: 4%;
+	margin-bottom: 2%;
+}
+.mainContent h2	{
+	font-size: 40px;
+	font-family: "Elephant" ;
+}
+
+.topcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 2% 5%;
+	margin-bottom: 4%;
+	text-align: justify;
+}
+
+.bottomcontent {
+	background-color: #FFF;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 2% 5%;
+	text-align: justify;
+}
+
+.content {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.footer {
+	width: 50%;
+	float: left;
+	margin: 2% 25%;
+	padding-left: 0;
+	background-color: #666;
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	color: #FFF;
+	text-align: center;
 	}
+
+.footer a, .footer a:link, .footer a:visited, .footer a:active, .footer a:hover {
+	color: greenyellow;
+}
+.footer a:hover {
+	color: #333333;
+}
